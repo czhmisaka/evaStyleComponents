@@ -19,6 +19,12 @@
       }
     },
     components: {},
+    // created() {
+    //   document.fonts.ready.then(function () {
+    //     // console.log('asd')
+    //     alert('加载完成')
+    //   });
+    // },
     mounted() {
       let interval = setInterval(() => {
         let date1 = new Date()
@@ -40,7 +46,7 @@
   #app {
     font-family: "eva";
     /* font-family: "eva_Chinese"; */
-    font-weight:500;
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
