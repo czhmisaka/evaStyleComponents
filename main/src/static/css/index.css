@@ -8,34 +8,7 @@ img {
     src: url("../font/eva.woff2") format("woff2"), url("../font/eva.woff") format("woff"), url("../font/eva.ttf") format("truetype"), url("../font/eva.eot") format("embedded-opentype"), url("../font/eva.svg") format("svg");
 }
 
-@keyframes blurToClear {
-    from {
-        filter: blur(10px);
-    }
-    to {
-        filter: blur(0px);
-    }
-}
-
-@keyframes FadeIn_fromLeftTop {
-    from {
-        transform: translateX(100vw);
-    }
-    to {
-        transform: skewX(-30deg) translateX(20%);
-    }
-}
-
-@keyframes FadeIn_fromLeftTopToPoint {
-    0% {
-        opacity: 0;
-    }
-    65% {
-        opacity: 0;
-        transform: skew(30deg) translate(30vw, -51vw);
-    }
-    100% {
-        opacity: 1;
-        transform: skew(30deg);
-    }
+@font-face{
+    font-family: 'eva_Chinese';
+    src:url('../font/FZCSJW.TTF') format("truetype")
 }
