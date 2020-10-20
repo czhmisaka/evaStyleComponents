@@ -7,6 +7,7 @@
       <div class="button" @click="navTo('normal')" :style="'color:'+$route.meta.color">czhmisaka</div>
       <div class="button" :style="'color:'+$route.meta.color+';font-size:2vw;'">{{time}}</div>
     </div>
+    <eva-textBox class="tBox_1"></eva-textBox>
   </div>
 </template>
 
@@ -94,5 +95,11 @@
 
   .blur10px_start {
     filter: blur(10px);
+  }
+
+  .tBox_1{
+    width:400px;
+    height:200px;
+    text-overflow: ellipsis;
   }
 </style>

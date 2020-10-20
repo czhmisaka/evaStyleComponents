@@ -17,22 +17,37 @@
 
 <script>
     export default {
-        name: "eva_Tbox",
+        name: "eva-textBox",
         data() {
             return {
 
             }
         },
-        components: {}
+        props: {
+            title: {
+                type: String,
+                default: ''
+            },
+            wordList: {
+                type: Array,
+                default: [{
+                    style:'',
+                    context:'',
+                }]
+            }
+        },
+        components: {
+            
+        }
     };
 </script>
 
 <style>
-    .textBox {}
-
     .textBox>.bg {}
 
     .textBox>.content {
+        width:100%;
+        height: 100%; 
         font-family: 'eva_Chinese';
     }
 
