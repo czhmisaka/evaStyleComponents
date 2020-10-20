@@ -19,12 +19,6 @@
       }
     },
     components: {},
-    // created() {
-    //   document.fonts.ready.then(function () {
-    //     // console.log('asd')
-    //     alert('加载完成')
-    //   });
-    // },
     mounted() {
       let interval = setInterval(() => {
         let date1 = new Date()
@@ -36,6 +30,9 @@
         this.$router.push({
           name: name
         })
+      },
+      init(){
+        
       }
     }
   };

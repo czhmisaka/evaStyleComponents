@@ -1,24 +1,9 @@
-# main
+# EVA风格组件开发
 
-## Project setup
-```
-npm install
-```
+### 这是一个 czhmisaka 的个人项目，所以开发进度会很慢
+ 希望有设计大佬可以帮我（我想白嫖.jpg && 做梦.jpg ）
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 如何启动项目
+   1. 打开终端 输入 vue ui 即可
