@@ -1,10 +1,6 @@
 <template>
-    <div class="textBox">
-        <div class="bg">
-        </div>
-        <div class="content">
-            
-        </div>
+    <div class="startLoading">
+        
     </div>
 </template>
 
@@ -16,6 +12,9 @@
 
             }
         },
+        props(){
+            
+        },
         methods: function () {
 
         },
@@ -24,15 +23,5 @@
 </script>
 
 <style>
-    .textBox {}
-
-    .textBox>.bg {}
-
-    .textBox>.content {
-        font-family: 'eva_Chinese';
-    }
-
-    .textBox>.content>.title {}
-
-    .textBox>.content>.word {}
+    .startLoading {}
 </style>

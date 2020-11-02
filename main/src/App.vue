@@ -21,6 +21,7 @@
     },
     components: {},
     mounted() {
+      init()
       let interval = setInterval(() => {
         let date1 = new Date()
         this.time = date1.toLocaleString()
@@ -32,8 +33,8 @@
           name: name
         })
       },
-      init(){
-        
+      init() {
+
       }
     }
   };
@@ -97,9 +98,14 @@
     filter: blur(10px);
   }
 
-  .tBox_1{
-    width:400px;
-    height:200px;
+  .tBox_1 {
+    width: 400px;
+    height: 200px;
     text-overflow: ellipsis;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
   }
 </style>

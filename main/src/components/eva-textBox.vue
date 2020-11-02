@@ -31,23 +31,29 @@
             wordList: {
                 type: Array,
                 default: [{
-                    style:'',
-                    context:'',
+                    style: '',
+                    context: '',
                 }]
+            },
+            bgStyle: {
+                type: Object,
+                default: {
+
+                }
             }
         },
-        components: {
-            
-        }
+        components: {}
     };
 </script>
 
 <style>
+    .textBox {}
+
     .textBox>.bg {}
 
     .textBox>.content {
-        width:100%;
-        height: 100%; 
+        width: 100%;
+        height: 100%;
         font-family: 'eva_Chinese';
     }
 
