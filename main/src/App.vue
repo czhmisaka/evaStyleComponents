@@ -7,7 +7,7 @@
       <div class="button" @click="navTo('normal')" :style="'color:'+$route.meta.color">czhmisaka</div>
       <div class="button" :style="'color:'+$route.meta.color+';font-size:2vw;'">{{time}}</div>
     </div>
-    <eva-textBox class="tBox_1"></eva-textBox>
+    <eva-textBox class="tBox_1" ></eva-textBox>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
     },
     components: {},
     mounted() {
-      init()
+      this.init()
       let interval = setInterval(() => {
         let date1 = new Date()
         this.time = date1.toLocaleString()
