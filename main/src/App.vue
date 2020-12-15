@@ -7,7 +7,6 @@
       <div class="button" @click="navTo('normal')" :style="'color:'+$route.meta.color">czhmisaka</div>
       <div class="button" :style="'color:'+$route.meta.color+';font-size:2vw;'">{{time}}</div>
     </div>
-    <eva-textBox class="tBox_1" ></eva-textBox>
   </div>
 </template>
 
@@ -98,14 +97,4 @@
     filter: blur(10px);
   }
 
-  .tBox_1 {
-    width: 400px;
-    height: 200px;
-    text-overflow: ellipsis;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
-  }
 </style>

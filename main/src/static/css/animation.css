@@ -1,8 +1,8 @@
-
 @keyframes blurToClear {
     from {
         filter: blur(10px);
     }
+
     to {
         filter: blur(0px);
     }
@@ -12,6 +12,7 @@
     from {
         transform: translateX(100vw);
     }
+
     to {
         transform: skewX(-30deg) translateX(20%);
     }
@@ -21,12 +22,27 @@
     0% {
         opacity: 0;
     }
+
     65% {
         opacity: 0;
         transform: skew(30deg) translate(30vw, -51vw);
     }
+
     100% {
         opacity: 1;
         transform: skew(30deg);
     }
+}
+
+.animation_FadeIn_fromLeftTop {
+    animation: FadeIn_fromLeftTop 0.8s;
+}
+
+/* 浮现 */
+.animation_blurToClear {
+    animation: blurToClear 0.8s;
+}
+
+.animation_FadeIn_fromLeftTopToPoint {
+    animation: FadeIn_fromLeftTopToPoint 0.8s;
 }
