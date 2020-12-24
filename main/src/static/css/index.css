@@ -5,7 +5,7 @@ img {
 
 @font-face {
     font-family: "eva";
-    src: url("../font/eva.woff2") format("woff2"), url("../font/eva.woff") format("woff"), url("../font/eva.ttf") format("truetype"), url("../font/eva.eot") format("embedded-opentype"), url("../font/eva.svg") format("svg");
+    src: url("../font/eva.woff2") format("woff2");
 }
 
 @font-face {
