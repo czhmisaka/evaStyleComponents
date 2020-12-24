@@ -8,7 +8,7 @@ img {
     src: url("../font/eva.woff2") format("woff2"), url("../font/eva.woff") format("woff"), url("../font/eva.ttf") format("truetype"), url("../font/eva.eot") format("embedded-opentype"), url("../font/eva.svg") format("svg");
 }
 
-@font-face{
+@font-face {
     font-family: 'eva_Chinese';
-    src:url('../font/FZCSJW.TTF') format("truetype")
+    src: url('../font/FZCSJW.TTF') format("truetype")
 }
